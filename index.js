@@ -23,4 +23,4 @@ static sanitize( string ) {
     }
     return result.join( " " );
   }
-}}
+}
