@@ -13,7 +13,7 @@ static sanitize( string ) {
       if ( n == 0 ) {
         result.push( this.capitalize( arrayOfWords[ n ] ) )
       } else {
-        if ( exceptions.includes( arrayOfWords[ n ] ) ) {
+        if ( list.includes( arrayOfWords[ n ] ) ) {
           result.push( arrayOfWords[ n ] )
         } else {
           result.push( this.capitalize( arrayOfWords[ n ] ) )
